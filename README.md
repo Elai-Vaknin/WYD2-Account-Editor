@@ -27,7 +27,7 @@ after you've done editing simply close the window and the item will be updated a
 
 <div align="center">
   
-![image](https://user-images.githubusercontent.com/39623990/128568638-72c67a5d-ee23-429d-a42c-fa0ee74bfdd6.png)
+![image](https://user-images.githubusercontent.com/39623990/128568809-87e184bc-9f21-4966-a2a2-b57214ee93ad.png)
 ![image](https://user-images.githubusercontent.com/39623990/128568538-94694093-3951-4706-9b7c-8549984d213f.png)
 ![image](https://user-images.githubusercontent.com/39623990/128513669-b32fd400-e179-418d-9f36-e19e7c089a53.png)
 
