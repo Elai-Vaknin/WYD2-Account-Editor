@@ -47,6 +47,15 @@ namespace EditorAccount {
 		}
 
 		void Reload() {
+			if (this->index == 0) {
+				labelIndex->Text = "Empty Slot";
+
+				for(int i = 0; i < 3; i++)
+					LabelArr[i]->Text = "";
+
+				return;
+			}
+
 			int count = 0;
 			
 			labelIndex->Text = "Index: " + this->index;

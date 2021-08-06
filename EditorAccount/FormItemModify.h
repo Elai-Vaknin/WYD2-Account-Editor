@@ -275,7 +275,9 @@ namespace EditorAccount {
 			this->Controls->Add(this->txtEffect0);
 			this->Controls->Add(this->lblEffect0);
 			this->Name = L"Form2";
-			this->Text = L"MyForm";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterParent;
+			this->Text = L"Item Modify";
+			this->Load += gcnew System::EventHandler(this, &Form2::Form2_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -317,11 +319,10 @@ namespace EditorAccount {
 		struct stat fileInfo;
 
 		if (stat(cPath.c_str(), &fileInfo) == 0) {
-
 			return path;
 		}
 
-		return currentdir + "0.png";
+		return currentdir + "unknown.png";
 	}
 
 	private: System::Void txtIndex_TextChanged(System::Object^ sender, System::EventArgs^ e) {
@@ -337,5 +338,7 @@ namespace EditorAccount {
 		txtValue1->Text = "0";
 		txtValue2->Text = "0";
 	}
+private: System::Void Form2_Load(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }
