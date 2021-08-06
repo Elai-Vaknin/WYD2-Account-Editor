@@ -1,10 +1,16 @@
-# WYD2-Account-Editor
 
-## Developed using C++/CLR for WYD2 7.662 Server
+<h1 align="center">
+WYD2-Account-Editor
+</h1>
+<h2 align="center">
+Developed using C++/CLR for WYD2 7.662 Server
+</h2>
 
 * Make sure Base.h contains your WYD Server source struct Mob and struct MobExtra.
+<h3 align="center">
+How to use:
+</h3>
 
-## How to use:
 * Using File->Open->Select the specific account you'd like to edit.
 * After selection account name, password and code will be filled with account information.
 * Pick a character within the account, after the selection the rest of data will be filled
