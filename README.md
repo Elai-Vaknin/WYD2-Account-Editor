@@ -30,4 +30,6 @@ after you've done editing simply close the window and the item will be updated a
 ![image](https://user-images.githubusercontent.com/39623990/128508425-d8e8ec50-689e-407e-afee-d70ad3d31801.png)
 
 ![image](https://user-images.githubusercontent.com/39623990/128508174-323ae14a-67b9-4d7f-8668-a392e6a269e3.png)
+![image](https://user-images.githubusercontent.com/39623990/128513669-b32fd400-e179-418d-9f36-e19e7c089a53.png)
+
 </div>
